@@ -81,7 +81,7 @@ public class CrimeFragment extends Fragment {
             @Override
             public void onClick(View v) {
                 FragmentManager manager = getFragmentManager();
-                DatePickerFragment dialog = DatePickerFragment.newInstance(mCrime.getDate());
+                TimePickerFragment dialog = TimePickerFragment.newInstance(mCrime.getDate());
                 dialog.setTargetFragment(CrimeFragment.this, REQUEST_DATE);
                 dialog.show(manager, DIALOG_DATE);
             }
@@ -108,7 +108,7 @@ public class CrimeFragment extends Fragment {
 
         if (requestCode == REQUEST_DATE) {
             Date date = (Date) data
-                    .getSerializableExtra(DatePickerFragment.EXTRA_DATE);
+                    .getSerializableExtra(TimePickerFragment.EXTRA_DATE);
             mCrime.setDate(date);
             updateDate();
         }

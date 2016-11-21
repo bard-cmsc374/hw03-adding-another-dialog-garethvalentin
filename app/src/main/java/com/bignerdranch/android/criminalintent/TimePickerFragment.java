@@ -51,7 +51,7 @@ public class TimePickerFragment extends DialogFragment {
         int day = calendar.get(Calendar.DAY_OF_MONTH);
 
         View v = LayoutInflater.from(getActivity())
-                .inflate(R.layout.dialog_date, null);
+                .inflate(R.layout.dialog_time, null);
 
         mDatePicker = (DatePicker) v.findViewById(R.id.dialog_date_date_picker);
         mDatePicker.init(year, month, day, null);

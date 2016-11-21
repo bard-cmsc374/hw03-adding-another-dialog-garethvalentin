@@ -30,6 +30,6 @@
         android:layout_toLeftOf="@id/list_item_crime_solved_check_box"
         android:layout_below="@id/list_item_crime_title_text_view"
         android:padding="4dp"
-        tools:text="Crime Title"
+        tools:text="Crime Date"
     />
 </RelativeLayout>

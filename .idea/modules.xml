@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/CriminalIntent.iml" filepath="$PROJECT_DIR$/CriminalIntent.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hw03-adding-another-dialog-garethvalentin.iml" filepath="$PROJECT_DIR$/hw03-adding-another-dialog-garethvalentin.iml" />
     </modules>
   </component>
 </project>
