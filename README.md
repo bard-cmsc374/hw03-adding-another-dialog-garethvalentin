@@ -1,2 +1,4 @@
-# hw03-adding-another-dialog-garethvalentin
-# hw03-adding-another-dialog-garethvalentin
+# First Commit: Implement til Ch 12
+# Second Commit: Add Timpicker
+# Third Commit: Finish & improve Timpicker add Landscape view
+# Final Commit: Implement TextApplication.java
